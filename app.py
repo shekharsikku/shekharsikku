@@ -23,7 +23,7 @@ def api_response(message: str, data: any, code: int):
 
 @app.route("/", methods=["GET"])
 def greet():
-    return redirect(getenv("CORS_ORIGIN"))
+    return redirect(getenv("DOMAIN_REDIRECT"))
 
 
 @app.route("/api/v1/portfolio/contact", methods=["GET", "POST"])
