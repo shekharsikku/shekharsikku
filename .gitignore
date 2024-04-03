@@ -1,0 +1,11 @@
+# editor dirs
+.venv
+.idea
+.vscode
+.vercel
+
+# cache files 
+__pycache__
+
+# env variables
+.env
