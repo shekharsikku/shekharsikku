@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://ik.imagekit.io/8fgpvoiai/profile/octocat-1693317410462_d12-ZLppu.png?updatedAt=1700229684325"
+    rel="icon" />
+  <title>Shekhar Portfolio</title>
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/fullpage.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/owl.carousel.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+  <!-- Additional CDN -->
+  <script src="https://kit.fontawesome.com/570587b8a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="video">
+    <div class="preloader">
+      <div class="preloader-bounce">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- Header -->
+    <header id="header">
+      <div class="container-fluid">
+        <div class="navbar">
+          <a href="#slide01" id="logo" title="Shekhar">Shekhar</a>
+          <div class="navigation-row">
+            <nav id="navigation">
+              <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
+              <div class="nav-box navbar-collapse">
+                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
+                  <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
+                  <li data-menuanchor="slide02"><a href="#slide02">About Me</a></li>
+                  <li data-menuanchor="slide03"><a href="#slide03">Services</a></li>
+                  <li data-menuanchor="slide04"><a href="#slide04">My Skills</a></li>
+                  <li data-menuanchor="slide05"><a href="#slide05">My Work</a></li>
+                  <li data-menuanchor="slide06"><a href="#slide06">Testimonials</a></li>
+                  <li data-menuanchor="slide07"><a href="#slide07">Contact Me</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Background Animation Video -->
+    <!-- <video autoplay muted loop id="myVideo">
+      <source src="{{ url_for('static', filename='images/video-bg.mp4') }}" type="video/mp4">
+    </video> -->
+
+    <!-- Content -->
+    <div id="fullpage" class="fullpage-default">
+      <!-- Hero Section -->
+      <div class="section animated-row" data-section="slide01">
+        <div class="section-inner">
+          <div class="welcome-box">
+            <span class="welcome-first animate" data-animate="fadeInUp">Hey Everyone, This is</span>
+            <h1 class="welcome-title animate" data-animate="fadeInUp">Shekhar</h1>
+            <p class="animate" data-animate="fadeInUp">A Full Stack Developer, With 1+ years of
+              experience in web development, I have a strong command over both front-end and back-end
+              technologies, allowing me to build complete and scalable web applications.</p>
+            <div class="scroll-down next-section animate data-animate=" fadeInUp""><img
+                src="{{ url_for('static', filename='images/mouse-scroll.png') }}" alt="Scroll Down">
+              <span>Scroll Down</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About Section -->
+      <div class="section animated-row" data-section="slide02">
+        <div class="section-inner">
+          <div class="about-section">
+            <div class="row justify-content-center">
+              <div class="col-lg-8 wide-col-laptop">
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <div class="about-contentbox">
+                      <div class="animate md-mt-1 mt-5" data-animate="fadeInUp">
+                        <span>About Me</span>
+                        <h2>Who am i?</h2>
+                        <p>I'm <strong>Shekhar Vishwakarma</strong> from
+                          <strong>Ghazipur U.P. INDIA</strong> <br>
+                          Full Stack Developer, Proficient in <b>JavaScript & Python</b> <br>
+                          Specializing in <b>React, Flask, Express.js & Node.js</b> <br>
+                          Currently focusing on <b>Django & GraphQL</b>
+                        </p>
+                      </div>
+                      <div class="facts-list owl-carousel">
+                        <div class="item animate" data-animate="fadeInUp">
+                          <div class="counter-box">
+                            <i class="fa fa-trophy counter-icon" aria-hidden="true"></i>
+                            <span class="count-number">2</span> Awards Won
+                          </div>
+                        </div>
+                        <div class="item animate" data-animate="fadeInUp">
+                          <div class="counter-box">
+                            <i class="fa fa-graduation-cap counter-icon" aria-hidden="true"></i>
+                            <span class="count-number">1</span> Degrees
+                          </div>
+                        </div>
+                        <div class="item animate" data-animate="fadeInUp">
+                          <div class="counter-box">
+                            <i class="fa fa-desktop counter-icon" aria-hidden="true"></i>
+                            <span class="count-number">1</span> Working Years
+                          </div>
+                        </div>
+                        <div class="item animate" data-animate="fadeInUp">
+                          <div class="counter-box">
+                            <i class="fa fa-support counter-icon" aria-hidden="true"></i>
+                            <span class="count-number">1</span> Team Members
+                          </div>
+                        </div>
+                        <div class="item animate" data-animate="fadeInUp">
+                          <div class="counter-box">
+                            <i class="fa fa-certificate counter-icon" aria-hidden="true"></i>
+                            <span class="count-number">2</span> Certificates
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <figure class="about-img animate" data-animate="fadeInUp">
+                      <img src="{{ url_for('static', filename='images/shekhar.jpg') }}" class="rounded"
+                        alt="About Image">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Service Section -->
+      <div class="section animated-row" data-section="slide03">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-8 wide-col-laptop">
+              <div class="title-block animate" data-animate="fadeInUp">
+                <span>Services</span>
+                <h2>What I Do?</h2>
+              </div>
+              <div class="services-section">
+                <div class="services-list owl-carousel">
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon">
+                        <i class="fa-brands fa-figma" aria-hidden="true"></i></span>
+                      <h3>Website Design</h3>
+                      <p>Website design involves creating the visual layout, user interface, and
+                        overall aesthetics of a website. This includes selecting color schemes,
+                        typography, imagery, and layout structures to ensure a visually
+                        appealing and user-friendly experience. </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon">
+                        <i class="fa-solid fa-rocket" aria-hidden="true"></i>
+                      </span>
+                      <h3>Web Application</h3>
+                      <p>Web application development involves creating dynamic and interactive
+                        web-based software applications that perform specific functions or
+                        provide services to users. Web applications for simple web to complex
+                        enterprise systems and social networking platforms. </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon">
+                        <i class="fa fa-desktop" aria-hidden="true"></i></span>
+                      <h3>Frontend</h3>
+                      <p>Frontend development focuses on building the client-side of websites,
+                        which is what users interact with directly in their web browsers. It
+                        involves writing code in HTML, CSS, JavaScript, and React to implement
+                        the design and functionality of web pages. </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon">
+                        <i class="fa fa-cloud" aria-hidden="true"></i></span>
+                      <h3>Backend</h3>
+                      <p>Backend development involves building the server-side of websites, which
+                        handles data processing, storage, and interactions with databases.
+                        I use programming languages Python and JavaScript (Node.js) to create
+                        server logic, APIs, and database connections. </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon">
+                        <i class="fa-solid fa-layer-group" aria-hidden="true"></i></span>
+                      <h3>Full-Stack</h3>
+                      <p>Full-stack development combines both frontend and backend development
+                        skills, allowing developers to work on both the client-side and
+                        server-side of web applications. Proficient in Next.js, Django, Flask,
+                        like frameworks, and technologies. </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon">
+                        <i class="fa fa-mobile" aria-hidden="true"></i></span>
+                      <h3>Fully Responsive</h3>
+                      <p>Responsive web design ensures that websites adapt and display properly on
+                        various devices and screen sizes, including desktops, laptops, tablets,
+                        and smartphones. It involves using flexible layouts, fluid grids, and
+                        media queries to create a seamless user experience across different
+                        devices. </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
+                      <h3>Support</h3>
+                      <p>Website maintenance and support services include ongoing updates, bug
+                        fixes, security patches, and performance optimizations to keep websites
+                        running smoothly and securely. This ensures that websites remain
+                        functional, up-to-date, and protected against security threats. </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"><i class="fa fa-database" aria-hidden="true"></i></span>
+                      <h3>Content Management Systems (CMS)</h3>
+                      <p>CMS development involves creating custom content management systems or
+                        customizing existing CMS platforms like WordPress. It enables users to
+                        easily manage and update website content without needing advanced
+                        technical skills. </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon">
+                        <i class="fa-brands fa-searchengin" aria-hidden="true"></i>
+                      </span>
+                      <h3>Search Engine Optimization (SEO)</h3>
+                      <p>Services for optimizing websites to improve their visibility and
+                        ranking in search engine results pages (SERPs). It include keyword
+                        research, on-page optimization, and other strategies to increase organic
+                        traffic and attract more visitors to the website. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Skills Section -->
+      <div class="section animated-row" data-section="slide04">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-7 wide-col-laptop">
+              <div class="title-block animate" data-animate="fadeInUp">
+                <span>My Skills</span>
+                <h2>What i’m good?</h2>
+              </div>
+              <div class="skills-row animate" data-animate="fadeInDown">
+                <div class="row">
+                  <div class="col-md-8 offset-md-2">
+                    <div class="skill-item">
+                      <h6>React, Next.js</h6>
+                      <div class="skill-bar">
+                        <span>80%</span>
+                        <div class="filled-bar-1"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <h6>Django, Flask</h6>
+                      <div class="skill-bar">
+                        <span>75%</span>
+                        <div class="filled-bar-2"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <h6>Node, Express</h6>
+                      <div class="skill-bar">
+                        <span>85%</span>
+                        <div class="filled-bar-3"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item last-skill">
+                      <h6>MongoDB, MySql</h6>
+                      <div class="skill-bar">
+                        <span>70%</span>
+                        <div class="filled-bar-4"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Work Section -->
+      <div class="section animated-row" data-section="slide06">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-8 wide-col-laptop">
+              <div class="title-block animate" data-animate="fadeInUp">
+                <span>My Work</span>
+                <h2>what i’ve done?</h2>
+              </div>
+              <div class="gallery-section">
+                <div class="gallery-list owl-carousel">
+                  <a href="https://github.com/shekharsikku/task-manager.git" target="_blank">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="{{ url_for('static', filename='images/task-manager.jpg') }}" alt="Project">
+                        </div>
+                        <div class="thumb-inner animate" data-animate="fadeInUp">
+                          <h4>Task Manager</h4>
+                          <p> <b>Task Managing App</b> <br>
+                            Tech Stack : Next.js, TailwindCSS, Prisma, MongoDB, Clerk
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://github.com/shekharsikku/mern-chatapp.git" target="_blank">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="{{ url_for('static', filename='images/mern-chatapp.jpg') }}" alt="Project">
+                        </div>
+                        <div class="thumb-inner animate" data-animate="fadeInUp">
+                          <h4>MERN ChatApp</h4>
+                          <p> <b>MERN Chat App</b> <br>
+                            Tech Stack : MongoDB, Express.js, React.js, Node.js,
+                            Socket.io, TailwindCSS, Daisy UI.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://github.com/shekharsikku/stream-sync.git" target="_blank">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="{{ url_for('static', filename='images/stream-sync.jpg') }}" alt="Project">
+                        </div>
+                        <div class="thumb-inner animate" data-animate="fadeInUp">
+                          <h4>Stream Sync</h4>
+                          <p> <b>Video Calling App</b> <br>
+                            Tech Stack : Next.js, TypeScript, TailwindCSS, Shadcn UI,
+                            Clerk, GetStream
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://github.com/shekharsikku/expense-tracker.git" target="_blank">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="{{ url_for('static', filename='images/expense-tracker.jpg') }}" alt="Project">
+                        </div>
+                        <div class="thumb-inner animate" data-animate="fadeInUp">
+                          <h4>Expense Tracker</h4>
+                          <p> <b>Expense Tracking App</b> <br>
+                            Tech Stack : MongoDB, Express.js, React.js, Node.js,
+                            Apollo GraphQL
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://github.com/shekharsikku/shekharsikku.git" target="_blank">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="{{ url_for('static', filename='images/shekhar-portfolio.jpg') }}" alt="Project">
+                        </div>
+                        <div class="thumb-inner animate" data-animate="fadeInUp">
+                          <h4>Shekhar Portfolio</h4>
+                          <p> <b>My Portfolio Website</b> <br>
+                            Tech Stack : HTML, CSS, JavaScript, Bootstrap
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonials Section -->
+      <div class="section animated-row" data-section="slide05">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-8 wide-col-laptop">
+              <div class="title-block animate md-mt-1 mt-5" data-animate="fadeInUp">
+                <span>TESTIMONIALS</span>
+                <h2>WHAT THEY SAY?</h2>
+              </div>
+              <div class="col-md-8 offset-md-2">
+                <div class="testimonials-section">
+                  <div class="testimonials-slider owl-carousel">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img src="{{ url_for('static', filename='images/profile.png') }}" class="rounded-circle"
+                            alt="profile 1">
+                        </div>
+                        <div class="testimonial-content">
+                          <h4>Client</h4>
+                          <p>"I'm blown away by the level of expertise and creativity. Thank
+                            you for your outstanding work!"</p>
+                          <span>Client Profession</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img src="{{ url_for('static', filename='images/profile.png') }}" class="rounded-circle"
+                            alt="profile 2">
+                        </div>
+                        <div class="testimonial-content">
+                          <h4>Client</h4>
+                          <p>"The design is sleek, the functionality is flawless, and their
+                            attention to detail is commendable. I couldn't be happier with
+                            the outcome!"</p>
+                          <span>Client Profession</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img src="{{ url_for('static', filename='images/profile.png') }}" class="rounded-circle"
+                            alt="profile 3">
+                        </div>
+                        <div class="testimonial-content">
+                          <h4>Client</h4>
+                          <p>"I highly recommend their services to anyone
+                            looking for top-notch web development."</p>
+                          <span>Client Profession</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Section -->
+      <div class="section animated-row" data-section="slide07">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-7 wide-col-laptop">
+              <div class="title-block animate" data-animate="fadeInUp">
+                <span>Contact</span>
+                <h2>Get In Touch!</h2>
+              </div>
+              <div class="contact-section">
+                <div class="row align-items-center">
+                  <div class="col-md-6 animate" data-animate="fadeInUp">
+                    <div class="contact-box">
+                      <div class="contact-row">
+                        <i class="fa fa-map-marker"></i> Ghazipur, Uttar Pradesh, 232332
+                      </div>
+                      <div class="contact-row">
+                        <i class="fa fa-phone"></i> +919151244347, +919565101143
+                      </div>
+                      <div class="contact-row">
+                        <i class="fa fa-envelope"></i> shekharsharma.ss9151@gmail.com
+                      </div>
+                      <div class="contact-row">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Share your thoughts or questions?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 animate" data-animate="fadeInUp">
+                    <form id="contact-form">
+                      <div class="input-field">
+                        <input type="text" class="form-control" name="name" id="contact-name" required
+                          placeholder="Name" autocomplete="off">
+                      </div>
+                      <div class="input-field">
+                        <input type="email" class="form-control" name="email" id="contact-email" required
+                          placeholder="Email" autocomplete="off">
+                      </div>
+                      <div class="input-field">
+                        <input type="text" class="form-control" name="phone" id="contact-phone" required
+                          placeholder="Phone" autocomplete="off">
+                      </div>
+                      <div class="input-field">
+                        <textarea class="form-control" name="message" id="contact-message" required
+                          placeholder="Message" autocomplete="off"></textarea>
+                      </div>
+                      <button class="btn" type="submit">Submit</button>
+                    </form>
+                    <div id="form-messages" class="mt-3"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Social Icons -->
+    <div id="social-icons">
+      <div class="text-right">
+        <ul class="social-icons">
+          <li><a href="https://github.com/shekharsikku" target="_blank" title="GitHub">
+              <i class="fa fa-github"></i></a></li>
+          <li><a href="https://linkedin.com/in/shekharsikku" target="_blank" title="LinkedIn">
+              <i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://instagram.com/shekharsikku" target="_blank" title="Instagram">
+              <i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://twitter.com/shekharsikku" target="_blank" title="Twitter">
+              <i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="http://wa.me/+919151244347" target="_blank" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i></a></li>
+          <li><a href="mailto:shekharsharma.ss9151@gmail.com" target="_blank" title="Gmail">
+              <i class="fa fa-envelope"></i></a></li>
+          <li><a href="./images/shekhar-resume.pdf" download="Shekhar-Resume" target="_blank" title="Resume">
+              <i class="fa-solid fa-file-lines"></i></a></li>
+          <li><a href="#" target="_blank" title="Copyright © 2024 ShekharSharma">
+              <i class="fa fa-copyright"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Additional JS Files -->
+  <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.inview.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/fullpage.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/scrolloverflow.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/form.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+</body>
+
+</html>
