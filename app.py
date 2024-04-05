@@ -25,7 +25,7 @@ def greet():
     return render_template("index.html")
 
 
-@app.route(getenv("API_ENDPOINT"), methods=["GET", "POST"])
+@app.route("/api/v1/shekharsikku/portfolio/users", methods=["GET", "POST"])
 def portfolio_contacts():
     if request.method == "POST":
         user = request.get_json()
