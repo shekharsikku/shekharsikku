@@ -4,7 +4,7 @@
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3d5_fe0f/512.gif" alt="🏕" width="25" height="25"> **About Me**
 
 - 📚 Expanding knowledge and skills in **Web development**
-- 🌱 Currently focus on learning  **Django & GraphQL**
+- 🔭 Currently focus on learning  **Django & GraphQL**
 - 🌟 Favorite programming language **JavaScript & Python**
 - 👯 Looking to collaborate on **MERN or FullStack Project**
 - 💬 Ask me about **React, Next.js, Node.js** <br>
@@ -15,44 +15,22 @@
 
 ## 🛠️ **Tools**
 
-![GIT](https://img.shields.io/badge/-GIT-000?style=for-the-badge&logo=git) ![Github](https://img.shields.io/badge/-github-000?style=for-the-badge&logo=github) ![VisualStudioCode](https://img.shields.io/badge/-vs_code-000?style=for-the-badge&logo=visualstudiocode&logoColor=0A66C2) ![PyCharm](https://img.shields.io/badge/-pycharm-000?style=for-the-badge&logo=pycharm&logoColor=FFFF00)
+![GIT](https://img.shields.io/badge/-GIT-000?style=for-the-badge&logo=git) ![Github](https://img.shields.io/badge/-github-000?style=for-the-badge&logo=github) ![VisualStudioCode](https://img.shields.io/badge/-vs_code-000?style=for-the-badge&logo=visualstudiocode&logoColor=0A66C2) ![PyCharm](https://img.shields.io/badge/-pycharm-000?style=for-the-badge&logo=pycharm&logoColor=FFFF00) ![canva](https://img.shields.io/badge/-canva-000?style=for-the-badge&logo=canva) ![figma](https://img.shields.io/badge/-figma-000?style=for-the-badge&logo=figma)
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> **GitHub Stats**
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30"> **GitHub Stats**
 
-![](https://github-readme-stats.vercel.app/api?username=shekharsikku&theme=dark&show_icons=true&hide_border=false&count_private=false) ![](https://github-readme-stats.vercel.app/api/top-langs/?username=shekharsikku&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## <img src="https://media.tenor.com/images/22f42c11b612b041b4038573dca18a2d/tenor.gif" width="30"> **Let's Connect**
-
-<a href="https://www.instagram.com/shekharsikku">![Instagram](https://img.shields.io/badge/-instagram-000?&style=for-the-badge&logo=instagram&logoColor=E4405F)</a> <a href="https://www.linkedin.com/in/shekharsikku">![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&style=for-the-badge&logo=linkedin&logoColor=0A66C2)</a> <a href="https://twitter.com/shekharsikku">![Twitter](https://img.shields.io/badge/-Twitter-000?&style=for-the-badge&logo=x&logoColor=F9423A)</a> <a href="https://www.facebook.com/shekharsikku1">![Facebook](https://img.shields.io/badge/-facebook-000?&style=for-the-badge&logo=facebook&logoColor=1877F2)</a> <a href="mailto:shekharsharma.ss9151@gmail.com">![Gmail](https://img.shields.io/badge/-Gmail-000?&style=for-the-badge&logo=gmail&logoColor=EB1928)</a> <a href="https://shekharsikku.vercel.app">![portfolio](https://img.shields.io/badge/-Portfolio-000?&style=for-the-badge&logo=kofi&logoColor=F9423A)</a>
-
-***
-
-### <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4af/512.gif" alt="💯" width="20" height="20"> **Check out My Portfolio & Some of My Projects** 
-
-***
-
-## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ab/512.gif" alt="💫" width="25" height="25"> **My Portfolio**
-
-[![Demo](/static/images/shekhar-portfolio.png)](https://shekharsikku.vercel.app)
-
-***
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shekharsikku&theme=dark&show_icons=true&hide_border=false&count_private=false) ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shekharsikku&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) ![Streaks](https://github-readme-streak-stats.herokuapp.com/?user=shekharsikku&theme=dark&hide_border=false)
 
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="25" height="25"> **My Projects**
 
-### Stream Sync
+#### [My Portfolio](https://shekharsikku.vercel.app) - Check out My Portfolio
 
-[![Demo](/static/images/stream-sync.png)](https://github.com/shekharsikku/stream-sync) 
+#### [Stream Sync](https://github.com/shekharsikku/stream-sync) - Video Calling App 
 
-### Expense Tracker
+#### [Expense Tracker](https://github.com/shekharsikku/expense-tracker) - Expense Tracking App
 
-[![Demo](/static/images/expense-tracker.png)](https://github.com/shekharsikku/expense-tracker)
+## <img src="https://media.tenor.com/images/22f42c11b612b041b4038573dca18a2d/tenor.gif" width="30" height="30"> **Let's Connect**
 
-### Chat Application
-
-[![Demo](/static/images/mern-chatapp.png)](https://github.com/shekharsikku/mern-chatapp)
-
-### Task Manager
-
-[![Demo](/static/images/task-manager.png)](https://github.com/shekharsikku/task-manager)
+[![Instagram](https://img.shields.io/badge/-instagram-000?&style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/shekharsikku) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/shekharsikku) [![Twitter](https://img.shields.io/badge/-Twitter-000?&style=for-the-badge&logo=x&logoColor=F9423A)](https://twitter.com/shekharsikku) [![Facebook](https://img.shields.io/badge/-facebook-000?&style=for-the-badge&logo=facebook&logoColor=1877F2)](https://www.facebook.com/shekharsikku1) [![Gmail](https://img.shields.io/badge/-Gmail-000?&style=for-the-badge&logo=gmail&logoColor=EB1928)](mailto:shekharsharma.ss9151@gmail.com) [![portfolio](https://img.shields.io/badge/-Portfolio-000?&style=for-the-badge&logo=kofi&logoColor=F9423A)](https://shekharsikku.vercel.app)
 
 ***
