@@ -58,7 +58,7 @@ def portfolio_contacts():
             return api_response("Contacts fetched successfully!", 200, users)  
         return api_response("No any contact available!", 404)
     
-    return api_response("Some went wrong!", None, 500)
+    return api_response("Some went wrong!", 500)
 
 
 @app.route('/<path:path>')
