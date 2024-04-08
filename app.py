@@ -8,7 +8,7 @@ load_dotenv()
 
 app = Flask(__name__, static_url_path="/static")
 app.config["MONGO_URI"] = getenv("MONGODB_URI")
-CORS(app, resources={r"/api/*": {"origins": getenv("CORS_ORIGIN")}})
+CORS(app, resources={r"/api/*": {"origins": getenv("DOMAIN_URL")}})
 
 mongo = PyMongo(app)
 db = mongo.db.users
@@ -63,4 +63,4 @@ def portfolio_contacts():
 
 @app.route('/<path:path>')
 def catch_all(path):
-    return redirect(getenv("DOMAIN_REDIRECT"))
+    return redirect(getenv("DOMAIN_URL"))
