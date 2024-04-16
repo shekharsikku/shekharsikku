@@ -43,20 +43,34 @@ def portfolio_contacts():
         return api_response("Oops! It seems there was an issue with your submission!", 400)
 
     elif request.method == "GET":
-        users = []
+        content_type = request.headers.get('Content-Type')
 
-        for user in db.find():
-            users.append({
-                "_id": str(ObjectId(user["_id"])),
-                "name": user["name"],
-                "email": user["email"],
-                "phone": user["phone"],
-                "message": user["message"],
-            })
+        if content_type != 'application/json':
+            return redirect(getenv("DOMAIN_URL"))
         
-        if len(users) > 0:
-            return api_response("Contacts fetched successfully!", 200, users)  
-        return api_response("No any contact available!", 404)
+        data = request.get_json()
+        secret = data.get("secret")
+
+        if not secret:
+            return api_response("Please, provide secret key!", 400)
+
+        if secret == getenv("SECRET_KEY"):
+            users = []
+
+            for user in db.find():
+                users.append({
+                    "_id": str(ObjectId(user["_id"])),
+                    "name": user["name"],
+                    "email": user["email"],
+                    "phone": user["phone"],
+                    "message": user["message"],
+                })
+            
+            if len(users) > 0:
+                return api_response("Contacts fetched successfully!", 200, users)  
+            return api_response("No any contact available!", 404)
+ 
+        return api_response("Invalid secret key!", 403)
     
     return api_response("Some went wrong!", 500)
 
