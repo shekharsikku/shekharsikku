@@ -24,7 +24,7 @@
 
 ## <img src="https://em-content.zobj.net/source/microsoft-teams/363/sailboat_26f5.png" alt="⛵" width="25" height="25"> **GitHub Stats**
 
-![Stats](https://github-readme-stats.vercel.app/api?username=shekharsikku&theme=dark&show_icons=true&hide_border=true&count_private=true) ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shekharsikku&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact) ![Streaks](https://github-readme-streak-stats.herokuapp.com/?user=shekharsikku&theme=dark&hide_border=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=shekharsikku&theme=dark&show_icons=true&hide_border=false&count_private=true) ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shekharsikku&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact) ![Streaks](https://github-readme-streak-stats.herokuapp.com/?user=shekharsikku&theme=dark&hide_border=false)
 
 ## <img src="https://em-content.zobj.net/source/microsoft-teams/363/rocket_1f680.png" alt="🚀" width="25" height="25"> **My Projects**
 
